@@ -1,0 +1,16 @@
+{
+  "name": "Janus-firefox-endpoint-capture",
+  "version": "0.1.0",
+  "description": "Firefox extension to capture, filter, and block HTTP endpoints",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "tsc && echo 'Built! Load src/ folder in Firefox'"
+  },
+  "keywords": ["firefox", "extension", "network", "api"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

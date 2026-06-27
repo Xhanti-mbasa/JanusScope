@@ -1,0 +1,29 @@
+{
+  "name": "http-security-scanner",
+  "version": "1.0.0",
+  "description": "CLI tool to scan HTTP security headers and identify vulnerabilities",
+  "main": "dist/scanner.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/scanner.js",
+    "scan": "npm run build && node dist/scanner.js"
+  },
+  "keywords": [
+    "security",
+    "http",
+    "headers",
+    "vulnerabilities",
+    "cli"
+  ],
+  "author": "Xhanti Daka",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "typescript": "^5.3.3"
+  }
+}
